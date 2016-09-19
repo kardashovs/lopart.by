@@ -1,0 +1,62 @@
+@import "includes/settings";
+
+.search .block-search {
+	border: 3px solid $main-2;
+	
+	transition: all .4s ease-in-out;
+	&:hover {
+		box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.2);
+	}
+}
+
+.search form {
+	line-height: 2.5;
+	outline: none;
+	margin-left: 10px;
+}
+
+.search form img {
+	position: absolute;
+	margin-top: 10px;
+}
+
+.search input {
+	outline: 0;
+	height: 45px;
+	line-height: 24px;
+	width: 100%;
+	padding-left: 50px;	
+	background: url(../images/icon-search.png) no-repeat 5px;	
+	transition: all .4s ease-in-out;
+
+	&:hover,
+	&:active,
+	&:focus {
+	background: url(../images/icon-search-hover.png) no-repeat 5px
+	}
+}
+
+.search input[type=text],
+.search button {
+	font-size: 16px;
+	border: none;
+	
+}
+
+.search button {
+	position: absolute;
+	right: 17px;
+	top: 3px;
+	width: 120px;
+	background: #f4f4f4;
+	border-left: 2px dotted #ccc;
+	transition: all .4s ease-in-out;
+
+	&:hover {
+		background-color: $main-2;
+	}
+}
+
+section.search {
+	margin-bottom: $margin;
+}

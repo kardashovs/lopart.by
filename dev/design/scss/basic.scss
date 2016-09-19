@@ -1,0 +1,14 @@
+@import "http://webfonts.ru/import/lato.css";
+@import "includes/settings";
+
+body {
+	background-color: #fafafa;
+	font-family: 'Lato';
+}
+
+a {
+	color: $text-color; 
+}
+.ib {
+	display: inline-block;
+}
